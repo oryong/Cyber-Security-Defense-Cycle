@@ -1,0 +1,5 @@
+Opendaylight
+OpenVSwitch
+Aruba 2920 Switch
+
+Firewalls are a fundamental element of network security systems with the ability to block network data traffic flows according to pre-defined rules. Software-defined networking (SDN) technology, which can provide flexibility, elasticity, and programmability for network management, has been applied to network security systems. We propose a software-defined firewall cyber-security system, which securely gathers the firewall rules of the host/network-based firewalls through the SDN control plane, converts the collected firewall rules in the form of SDN flow rules, and deploys them on OpenFlow (OF)-enabled switches. Furthermore, we formulate an optimization problem to find appropriate OF-enabled switches to which the SDN flow rules are to be sent. The proposed firewall system makes the traffic flows that are destined to be dropped by a firewall be dropped in advance at the OF-enabled switch with the corresponding SDN flow rules. The SDN-based testbed experiments demonstrate that the proposed firewall system reduces the aggregate network traffic volume and the resource utilization of end-hosts in the network.
